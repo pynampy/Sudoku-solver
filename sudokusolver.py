@@ -37,7 +37,7 @@ def solve_sudoku(board):
 def printboard(board):
     for i in range(9):
         if i%3 == 0 and i != 0:
-            print("---------------------")
+            print("----------------------")
         for j in range(9):
             if j%3 == 0 and j!=0:
                 print("|",end=' ')
